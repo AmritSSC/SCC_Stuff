@@ -1,0 +1,12 @@
+
+/*
+ * Creates Unsharp_Masking filter
+ */
+public class Unsharp_Masking implements Filter
+{
+   public void filter(PixelImage pi)
+	  {
+		int[][] mat = {{-1,-2,-1},{-2,28,-2},{-1,-2,-1}}; //Array to store weights for Gaussian filter
+	    pi.getAverages(mat, 0);
+	  }	  
+}

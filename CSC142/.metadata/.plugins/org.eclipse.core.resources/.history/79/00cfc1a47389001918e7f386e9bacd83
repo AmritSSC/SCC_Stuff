@@ -1,0 +1,11 @@
+/*
+ * Creates Laplacian filter
+ */
+public class Laplacian implements Filter
+{
+   public void filter(PixelImage pi)
+	  {
+		int[][] mat = {{-1,-1,-1},{-1,8,-1},{-1,-1,-1}}; //Array to store weights for Gaussian filter
+	    pi.getAverages(mat, 0);
+	  }	  
+}

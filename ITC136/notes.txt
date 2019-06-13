@@ -1,0 +1,209 @@
+Final_review: most new stuff
+
+sudo apt-get        get GUI wrapper, i.e. packages
+dpkg -L
+rpm -ql
+apt-get update
+apt-cache depends package
+-dpkg -purge
+
+Commands may be externalman 
+
+To modify behavior of commands on an argument"
+
+command - parameter -option -switch /directory/file
+
+$man : manual
+$man -k
+$man /etc/passwd
+
+cdlk
+pwd
+echo
+exec
+time
+set
+exit
+logout
+uname
+
+history
+
+mkdir
+rmdir
+touch
+is -| t*
+less
+q
+cat: concatenate
+echo: return value
+export: other programs can see it
+stdin=0
+stdin=1
+stderr=2
+
+| redirect standard output of first program to the standard input of second program
+grep - global regular expression parsor
+
+xargs- builds a command from its standard input
+.* - matches any substring
+
+multiple possible strings: |
+escaping : use \
+grep -E shell quoting
+
+sed: 'script'
+sed -f
+s: substitute
+ex: sed 's/black/white/' first > second: change first 'black' to 'white' in file first and save file as second.
+    sed 's/black/white/g' first > second: change all instances of 'black' to 'white' in file first and save file as second.
+
+
+
+
+
+
+
+Ch-4 Managing Filesman z
+
+
+filename: upper and lower case. safer to avoid spaces in names
+255 characters or bytes in ext2fs, ext3fs, ext4fs, XFS, Btrfs
+Backup files often end in bak or ~
+Best not use *?|\" in file names to avoid confusion
+Any number of dots
+Dots files are hidden- shown by ls -la
+
+$ mkdir -p ~/dir1/dir2 - create subfolders
+
+$rmdir -p ~/dir1/dir2 - delete directories if all are empty
+$rmdir -R ~/dir1/dir2 - delete all files or directories when present
+
+$ ls -F /dev --color: shows content in dev folder in color to their type
+
+cp -copy
+
+cp -i : interactive- ask to overwrite
+cp -R : dir to dir
+cp -p preserve permissions and ownership
+cp -u update, copies if file is newer, or if target does not exist
+cp -f : update without permission
+
+mv - move file - in same directory, renames file and delete original
+           - in different directorie, moves file, original deleted.mc  
+
+rm -remove
+rm -r
+
+Make- utility helps compile a program from source code    
+
+tar- many files into one larger file(archive)
+
+zmore and zcat- display the contents of compressed without decompressing them.q
+-cvf create archive, verboaely, archive filename
+-t lists archives contents
+z gzip process archive through gzip
+
+
+tar -czvf poem.tgz poem - create taped archive file
+
+tar -xzf poem.tgz -C ./poetry
+    -xzf -C : unzips file into new directory poetry
+tar -xvf 
+
+cpio- copy input (out of archive)  
+cpio -i : extract files from uncompressed archives.
+cpio -o : input file into file
+
+dd - copies entire disk, byte by byte, including empty space
+
+
+superblock - info about filesystem such as how much stata a block stores, # of inodes, etc
+
+Inode table - information nodes; each describes one file or dir with inode, file size, datablock location on harddrive, etc, NOT filename.
+ls -li : shows hardnode with ls stuff
+
+ln- source linking
+
+ln -F : hardlink
+ln -s : softlink
+
+id - shows user id - user id list in /etc/group
+
+chown: change ownership of file
+      -R or --recursive
+
+permission
+first character - L to R: type *data or special or device file)l
+
+stat : gives statistic of file
+
+r - read
+w - write
+x - execute
+
+suid - set user ID 
+sgid - set group IDcd 
+
+sudo- acting as root for the one instant...
+finger  - displays info of system users
+chfn -change finger
+chmod 
+
+newgrp - change into a different group 
+
+chown - change file's owner.. but if group name preceded by . or : only group of file is changed
+chgrp - used by group users
+
+free - shows ram and rom data
+
+
+
+
+chmod +t file ; ls -l file : change type of file 
+chmod a-w file : for all users, remove wrote permission to file
+chmod g=u file
+
+/etc/shadow- encrypted passwds of all local user accounts and info about passwd aging.
+access to this file only root
+
+wall - writes to all terminals as it executes as tty group.
+tty- 
+
+find / -name motd 2>dev/null - supress error messages for each directory for which you do not have read permission
+find / -perm +6000 2>/dev/null - finds any specified bits are set Using - findsfiles in which all specified bits are set.
+find / -perm +rwx - any file with any permission bits
+
+unmask - default values of new files, full access 666 for files, 777 for directories... unmask 000
+022- common unmask, only writeable for owner
+
+chsh- change shell
+
+whatis - short description of command
+
+which -
+
+vi- file editor : to quit - 1. : q! - quit without saving 2. : wq - quit with saving 3. : x - save and quit
+
+            : e - loads another file into editor. : e! discards changes and reloads file
+            : w - save filefw:!
+:sh - go to shell
+:r include contents of another file 
+
+
+Esc -toggle between command and edit
+In command mode:
+
+ZZ - save and close-notice no colon.
+$- end of line
+0 - beginning of line
+D = d$ -delete line
+yy - copy or yank
+x - delete letter to right of cursor X- delete left of cursor
+dd - delete a line
+u - undo
+p - put/paste after cursor or line
+P - put/paste before cursor or line
+
+replace globally :%s/originalphrase/replacingphrase    :12,15s/op/replacement - change between lines
+~ - change letter case

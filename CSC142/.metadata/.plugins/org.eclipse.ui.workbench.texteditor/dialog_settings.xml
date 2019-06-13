@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="offset" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="offset"/>
+			<item value="p8"/>
+			<item value="p7"/>
+			<item value="p6"/>
+			<item value="p5"/>
+			<item value="p"/>
+			<item value="p4"/>
+			<item value="p3"/>
+			<item value="p2"/>
+			<item value="p1"/>
+			<item value="b2"/>
+			<item value="g2"/>
+			<item value="r2"/>
+			<item value="red"/>
+			<item value="blue"/>
+		</list>
+		<list key="replacehistory">
+			<item value="p22"/>
+			<item value="p21"/>
+			<item value="p20"/>
+			<item value="p12"/>
+			<item value="p11"/>
+			<item value="p10"/>
+			<item value="p03"/>
+			<item value="p01"/>
+			<item value="p00"/>
+			<item value="blue"/>
+			<item value="green"/>
+			<item value="red"/>
+			<item value="r2"/>
+			<item value="be"/>
+			<item value="gn"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="670" key="DIALOG_X_ORIGIN"/>
+		<item value="256" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

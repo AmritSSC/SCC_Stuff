@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Ch2Sample1,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld,org.eclipse.launchbar.core.descriptorType.default\:JavaVersionProject (1),org.eclipse.launchbar.core.descriptorType.default\:JavaVersionProject,org.eclipse.launchbar.core.descriptorType.default\:LeapYear,org.eclipse.launchbar.core.descriptorType.default\:Person,org.eclipse.launchbar.core.descriptorType.default\:person_r2,org.eclipse.launchbar.core.descriptorType.default\:Project3,org.eclipse.launchbar.core.descriptorType.default\:Project3_r1,org.eclipse.launchbar.core.descriptorType.default\:SnapShop (1),org.eclipse.launchbar.core.descriptorType.default\:SnapShop,org.eclipse.launchbar.core.descriptorType.default\:SnapShop (3),org.eclipse.launchbar.core.descriptorType.default\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:SnapShop (2)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Ch2Sample1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Ch2Sample1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

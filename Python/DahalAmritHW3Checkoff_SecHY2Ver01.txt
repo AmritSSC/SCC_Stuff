@@ -1,0 +1,30 @@
+Homework Checkoff List CSC110  
+Name: Amrit Dahal		    		
+Section: HY2	
+Homework: 3	
+
+List the requirements of the program						
+ > Request quantity of Brew coffee.
+ > Request quantity of Jolt coffee.
+ > Request delivery option.
+ > Request city and state.
+ > Request payment method.
+ >  
+ > Print amount of Brew and Jolt coffee ordered
+ > Calculate sub-total of coffee ordered
+ > Calculate and return shipping and handling cost
+ > Print delivery method and cost 
+ > Calculate total delivery charge
+ > Calculate Tax depending on state
+ >
+ > Print sub total
+ > Return the city and state order is being returned to
+ > Return the tax on the order
+ > Return the fee/discounts on the order
+ > Return the total cost for the order.
+ > 
+ > 
+ > 
+ > 
+ > 
+ > 

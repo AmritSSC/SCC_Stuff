@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+/**
+ * Filter that flips the image pixel .
+ */
+public class NegativeFilter implements Filter
+{
+  public void filter(PixelImage pi)
+  {
+    Pixel[][] data = pi.getData();
+
+    for (int row = 0; row < pi.getHeight(); row++)
+    {
+      for (int col = 0; col < pi.getWidth() / 2; col++)
+      {
+        Pixel temp = data[row][col];
+  //      data[row][col] = 255-data[row][col];
+  //      data[row][pi.getWidth() - col - 1] = temp;
+        System.out.println(Arrays.deepToString(temp));
+      }
+    }
+
+    pi.setData(data);
+  }
+}

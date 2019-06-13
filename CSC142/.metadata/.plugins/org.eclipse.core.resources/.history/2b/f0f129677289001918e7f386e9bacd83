@@ -1,0 +1,11 @@
+/*
+ * Creates Edgy filter
+ */
+public class Edgy implements Filter
+{
+   public void filter(PixelImage pi)
+	  {
+		int[][] mat = {{-1,-1,-1},{-1,9,-1},{-1,-1,-1}}; //Array to store weights for Gaussian filter
+	    pi.getAverages(mat, 0);
+	  }	  
+}

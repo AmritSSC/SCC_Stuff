@@ -1,0 +1,13 @@
+/*
+ * Creates Gaussian filter
+ */
+public class Gaussian implements Filter
+{
+   public void filter(PixelImage pi)
+	  {
+	   	//Matrix for Gaussian filter
+		int[][] mat = {{1,2,1},{2,4,2},{1,2,1}};
+		
+	    pi.getAverages(mat, 0);
+	  }	  
+}

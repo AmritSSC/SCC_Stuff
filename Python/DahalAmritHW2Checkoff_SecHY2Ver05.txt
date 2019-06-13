@@ -1,0 +1,18 @@
+Homework 2 Checkoff List CSC110  
+Name: Amrit Dahal		    		
+Section: HY2	
+Homework:  Determine cost of 3 items shipped with tax.
+
+List the requirements of the program:
+
+> Request the following for three items:
+					 Description, 
+					 Price,
+					 Quantity, and
+					 weight of item
+> Display the subtotal of each item
+
+> Calculate and display the total shipping cost.
+> Calculate and display the total tax.
+
+> Calculate and display the total cost. 
